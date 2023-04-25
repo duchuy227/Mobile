@@ -1,0 +1,82 @@
+body {
+    background-color:cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.signup
+{
+    width: 350px;
+    height: 650px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.login
+{
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+form input
+{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+}
+
+form button
+{
+    width: 315px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(6, 129, 88);
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+p a {
+    text-decoration: none;
+    color: blue;
+}
+
+form button a
+{
+    text-decoration: none;
+    color: white;
+}
