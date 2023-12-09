@@ -25,9 +25,7 @@
     <?php 
         include_once("headeradmin.php");
     ?>
-
     <h1>All Product</h1>
-
     <div class="container">
     <table class="table table-primary table-bordered border-bold">
         <thead class="thead-dark">

@@ -1,45 +1,32 @@
-
-
 <section class="main">
     <nav class="navbar navbar-expand-lg" style="background-color:blanchedalmond;">
         <a class="navbar-brand" href="#"><img src="Image/logo.jpeg" width="70" height="70" alt="" ></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active" style="margin-left: 60px;">
-            <a class="nav-link" href="user.php" 
-            style="color:black; font-size: 18px; font-weight:bold"
-            >Home</a>
+            <a class="nav-link" href="user.php" style="color:black; font-size: 18px; font-weight:bold">Home</a>
         </li>
         <li class="nav-item active" style="margin-left: 30px;">
-            <a class="nav-link" href="product.php" 
-            style="color:black; font-size: 18px; font-weight:bold"
-            >All Mobile</a>
+            <a class="nav-link" href="product.php" style="color:black; font-size: 18px; font-weight:bold" >All Mobile</a>
         </li>
         <li class="nav-item active" style="margin-left: 30px;">
-            <a class="nav-link" href="#" 
-            style="color:black; font-size: 18px; font-weight:bold"
-            >About Shop</a>
+            <a class="nav-link" href="#" style="color:black; font-size: 18px; font-weight:bold">About Shop</a>
         </li>
         <li class="nav-item active" style="margin-left: 30px;">
-            <a class="nav-link" href="#" 
-            style="color:black; font-size: 18px; font-weight:bold"
-            >Contact us</a>
+            <a class="nav-link" href="#" style="color:black; font-size: 18px; font-weight:bold">Contact us</a>
         </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" style="margin-right: 100px;" method="GET">
             <input class="form-control mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-3 my-sm-0" type="submit">Search</button>
         </form>
-        <button>
-                <a href="home.php"><i class="bi bi-box-arrow-left" style="font-size: 30px; color:#606060"></i></a>    
-        </button>
-        <button>
-                <a href="cart.php"><i class="bi bi-cart-fill" style="font-size: 30px; color:#606060"></i></a>    
-        </button>
+        <button><a href="home.php"><i class="bi bi-box-arrow-left" style="font-size: 30px; color:#606060"></i></a></button>
+        <button><a href="cart.php"><i class="bi bi-cart-fill" style="font-size: 30px; color:#606060"></i></a></button>
     </div>
 </nav>
 

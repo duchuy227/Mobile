@@ -34,37 +34,30 @@
     <h1>New Product</h1>
     <form action="" method="post" enctype="multipart/form-data">
     <div class="form-group" style="margin-left: 200px; margin-top: 50px">
-            <label class="font-weight-bold"
-            style="color: rgb(255,71,91); font-size: 30px">Product ID </label>
-            <input type="text" name="id">
+            <label class="font-weight-bold"style="color: rgb(255,71,91); font-size: 30px">Product ID </label><input type="text" name="id">
     </div>
     <div class="form-group" style="margin-left: 200px; margin-right: 300px">
-            <label class="font-weight-bold"
-            style="color: rgb(255,71,91); font-size: 30px">Name</label>
+            <label class="font-weight-bold"style="color: rgb(255,71,91); font-size: 30px">Name</label>
             <input type="text" class="form-control" name="name" value="">
     </div>
 
         <div class="form-group" style="margin-left: 200px; margin-right: 300px">
-            <label class="font-weight-bold"
-            style="color: rgb(255,71,91); font-size: 30px">Image</label>
+            <label class="font-weight-bold"style="color: rgb(255,71,91); font-size: 30px">Image</label>
             <input type="file" name="image" value="" style="margin-top:10px">
         </div>
 
         <div class="form-group" style="margin-left: 200px; margin-right: 300px">
-            <label class="font-weight-bold"
-            style="color: rgb(255,71,91); font-size: 30px">Price</label>
+            <label class="font-weight-bold"style="color: rgb(255,71,91); font-size: 30px">Price</label>
             <input type="text" class="form-control" name="price" value="">
         </div>
 
         <div class="form-group"style="margin-left: 200px; margin-right: 300px">
-            <label class="font-weight-bold"
-            style="color: rgb(255,71,91); font-size: 30px">Description</label>
+            <label class="font-weight-bold"tyle="color: rgb(255,71,91); font-size: 30px">Description</label>
             <textarea type="text" class="form-control" name="description"></textarea>
         </div>
 
         <div class="form-group" style="margin-left: 200px">
-            <label  class="font-weight-bold"
-            style="color: rgb(255,71,91); font-size: 30px">Brand</label> <br>
+            <label  class="font-weight-bold"tyle="color: rgb(255,71,91); font-size: 30px">Brand</label> <br>
             <select name="brand">
                 <?php
                     $sql = "select * from brand";
@@ -77,22 +70,13 @@
                 ?>        
             </select>
         </div>
-
         <div class="form-group" style="margin-left: 200px; margin-right: 300px">
-            <label class="font-weight-bold" 
-            style="color: rgb(255,71,91); font-size: 30px">
-            Specific Description</label>
-
+            <label class="font-weight-bold" style="color: rgb(255,71,91); font-size: 30px">Specific Description</label>
             <input type="text" class="form-control" name="specificDescription" value="">
         </div>
-
-        <button type="submit" class="btn btn-success" 
-        id="submitButton" name="submit" style="margin-bottom: 30px; margin-left: 200px; font-size: 20px; text-transform:uppercase;">
-        Add</button>
-
+        <button type="submit" class="btn btn-success" id="submitButton" name="submit" style="margin-bottom: 30px; margin-left: 200px; font-size: 20px; text-transform:uppercase;">Add</button>
         <h4>Please click All Product after <br> click Add to view product</h4>
     </form>
-    
     <?php
         if(isset($_POST['submit']))
         {
@@ -102,7 +86,6 @@
             $description = $_POST['description'];
             $brand = $_POST['brand'];
             $specificDescription = $_POST['specificDescription'];
-
             $path = $_POST['image'];
             if ($_FILES) {
                 $image = $_FILES['image']['name'];

@@ -35,11 +35,8 @@
             $product = query($sql);
         }
     ?>
-
     <h1 style="text-align: center; font-size: 40px; color: darkorchid; margin-top: 20px">Mobile Detail</h1>
     <hr style="margin-left: 500px; width: 280px; height: 3px; background-color: rgb(182, 52, 205);">
-
-    
     <div class="container">
         <div class="row">
             <?php
@@ -72,8 +69,6 @@
             ?>
         </div>
     </div>
-    
-    
     <?php
         if (isset($_POST['addCart'])) {
             $product_name = $_POST['product_name'];

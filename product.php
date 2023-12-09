@@ -24,10 +24,7 @@
         }
     </style>
 <body>
-    <?php
-        include_once("header.php");
-    ?>
-
+    <?php include_once("header.php"); ?>
     <?php
         include_once("db.php");
         $sql = "select * from product";
@@ -42,24 +39,16 @@
         }
         $product = query($sql);
     ?>
-
     <h1 style="text-align: center; font-size: 50px; color: darkorchid; margin-top: 20px">All Mobile</h1>
     <hr style="margin-left: 500px; width: 280px; height: 3px; background-color: rgb(182, 52, 205);">
     <?php
         include_once("brand.php");
     ?>
     <form action="" method="post" class="product"> 
-            <?php
-                foreach($product as $p){
-            ?>
-            
+            <?php foreach($product as $p){ ?>
                 <div class="card">
-                    <a href="product_detail.php?productID=<?= $p[0] ?>"
-                    style="text-decoration:none">
-                        <div class="image">
-                            <img src="<?= $p[2] ?>" alt="" class="img-fluid">
-                        </div>
-                    </a>
+                    <a href="product_detail.php?productID=<?= $p[0] ?>"style="text-decoration:none">
+                    <div class="image"><img src="<?= $p[2] ?>" alt="" class="img-fluid"></div></a>
                     <div class="caption">
                         <p class="rate">
                             <i class="bi bi-star-fill"></i>
